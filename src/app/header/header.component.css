@@ -1,0 +1,13 @@
+.header-container {
+    border-bottom: 1px solid #656565;
+    display: flex;       /* Make logo and links sit side by side */
+    align-items: center;      /* Vertically center align */
+    justify-content: space-between; /* Space between logo and links */
+}
+.menu-items{
+    margin-right: 30px;
+    text-decoration: none;
+    background-color:transparent;
+    color: white;
+    border:none;
+}

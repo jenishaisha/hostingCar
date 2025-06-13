@@ -1,0 +1,26 @@
+.page-block{
+    min-height: 100vh;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.home-block{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: url('/assets/home-bg.png');
+    position: relative;
+}
+.home-overlay{
+    background: linear-gradient(180deg, #111111 17.24%, rgba(7, 16, 22, 0) 40.76%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.home-content{
+    z-index: 1;
+    position: relative;
+}
