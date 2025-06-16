@@ -1,0 +1,161 @@
+  body {
+      background-color: #111;
+      color: white;
+      font-family: 'Inter', sans-serif;
+      padding: 60px 20px;
+  }
+
+  .section-title {
+      font-size: 56px;
+      font-weight: 500;
+      color: #fff;
+      font-family: 'Inter';
+  }
+
+  .highlight {
+      color: #2962ff;
+  }
+
+  .section-subtitle {
+      font-size: 16px;
+      color: #cccccc;
+      margin-top: 80px;
+      font-weight: 400;
+      color: #fff;
+      font-family: 'Inter';
+  }
+
+  .feature-title {
+      font-weight: 600;
+      font-size: 28px;
+      margin-bottom: 4px;
+      font-family: 'Inter';
+      color: #fff;
+  }
+
+  .feature-block {
+      margin-bottom: 34px;
+  }
+
+  .left-border {
+      border-left: 3px solid #2962ff;
+      padding-left: 12px;
+  }
+
+  .car-image {
+      width: 100%;
+      border-radius: 12px;
+      object-fit: cover;
+  }
+
+  .featurepara {
+      color: #FFFFFF;
+      font-size: 14px;
+      font-family: 'Lato';
+
+  }
+
+  .chooseUs {
+      font-family: 'Inter';
+      color: #fff !important;
+      font-size: 14px;
+      font-weight: 500;
+
+  }
+
+  /* carosal */
+
+  .carousel-item img {
+      height: 350px;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+
+  .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+  }
+
+  .services-section {
+      /* background-color: #121212; */
+      padding: 60px 0;
+  }
+
+  .text-primary {
+      color: #0d6efd !important;
+  }
+
+  .card-img-top {
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px 8px 0 0;
+  }
+
+  .card {
+      border: none;
+      border-radius: 17px;
+      overflow: hidden;
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+      display: inline-block;
+      width: 30px;
+      height: 38px;
+      background-repeat: no-repeat;
+      background-position: 50%;
+      background-size: 100% 100%;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+      position: absolute;
+      top: 460px;
+      bottom: 0px;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 4%;
+      padding: 0;
+      color: #fff;
+      text-align: center;
+      background: 0 0;
+      filter: var(--bs-carousel-control-icon-filter);
+      border: 0;
+      opacity: 1;
+      transition: opacity .15s ease;
+  }
+
+  .card-title {
+
+      color: #222222;
+      font-size: 18px;
+      font-family: 'lato';
+      font-weight: 700;
+  }
+
+  .explore {
+      color: #fff;
+      background-color: #1B5BE6;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'Lato';
+      width: 161px;
+      height: 50px;
+  }
+
+  @media (max-width: 768px) {
+      .section-title {
+          font-size: 28px;
+          text-align: center;
+      }
+
+      .section-subtitle {
+          text-align: center;
+      }
+
+      .features {
+          margin-top: 30px;
+      }
+  }
