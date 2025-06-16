@@ -38,7 +38,7 @@
     <div style="font-weight: 500; font-size: 28px; line-height: 150%;">Enter Your Number for a Quick Response</div>
     <form [formGroup]="numberForm" (ngSubmit)="onSubmit()">
       <div class="input-wrapper">
-        <input class="phone-input" formControlName="number" placeholder="Enter your Number" name="phoneNumber">
+        <input appNumberOnly class="phone-input" formControlName="number" placeholder="Enter your Number" name="phoneNumber">
         <button type="submit" class="input-btn">
           <span class="material-symbols-outlined">
             arrow_forward
