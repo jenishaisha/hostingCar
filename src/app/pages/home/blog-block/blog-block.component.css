@@ -1,0 +1,41 @@
+.page-block{
+    min-height: 100vh;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: black;
+}
+
+.blog-heading{
+     color:#FFFFFF;
+     font-family: Inter;
+     font-weight: 500px;
+     font-size: 18px;
+     line-height: 26px;
+     letter-spacing: 0%;
+     padding-top: 80px;
+}
+
+.sub-heading{
+    font-family: 'Lato';
+    font-weight: 500px;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0%;
+margin-bottom: 80px;
+}
+.blog-card{
+    height: 466px;
+    width:378.67px;
+    border-radius: 17px;
+    padding-bottom: 18px;
+    gap: 24px;
+    color: #EDF2FD;
+
+}
+.blog-img{
+    height: 300px;
+    width:378.67px;
+    border-radius: 8px;
+
+
+}
