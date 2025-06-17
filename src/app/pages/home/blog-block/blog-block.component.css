@@ -1,79 +1,96 @@
-.page-block{
+.page-block {
     min-height: 100vh;
     padding-left: 6%;
     padding-right: 6%;
     background-color: black;
 }
 
-.blog-heading{
-     color:#FFFFFF;
-     font-family: Inter;
-     font-weight: 500px;
-     font-size: 18px;
-     line-height: 26px;
-     letter-spacing: 0%;
-     padding-top: 80px;
+.blog-heading {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    padding-top: 80px;
 }
 
-.sub-heading{
+.sub-heading {
     font-family: 'Lato';
     font-weight: 500px;
     font-size: 48px;
     line-height: 56px;
     letter-spacing: 0%;
-margin-bottom: 80px;
+    margin-bottom: 80px;
 }
-.blog-card{
+
+.blog-card {
     height: 466px;
-    width:378.67px;
     border-radius: 17px;
     padding-bottom: 18px;
     gap: 24px;
-    background-color:  #EDF2FD;
+    background-color: #EDF2FD;
 }
-.blog-img{
+
+.blog-img {
     height: 300px;
-    width:378.67px;
+    width: 378.67px;
     border-radius: 8px;
 
 
 }
+
 /* p{
     padding-right: 14px;
     padding-left: 14px;
     gap:16px;
 } */
- .read-time{
+.read-time {
     font-family: Inter;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 0%;
-color: #222222;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #222222;
 
- }
- .blog-content{
+}
+
+.blog-content {
     width: 378.6666564941406;
-height: 84;
-gap: 16px;
-padding-right: 14px;
-padding-left: 14px;
-margin-top: 20px;
- }
- .card-title{
-    font-family: Inter;
-font-weight: 500;
-font-size: 18px;
-line-height: 26px;
-letter-spacing: 0%;
+    height: 84;
+    gap: 16px;
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-top: 20px;
+}
 
- }
- .card-date, .card-name{
-width: 165.3333282470703;
-height: 16;
-gap: 8px;
-padding-left: 14px;
-display: flex;
-margin-top: 20px;
- }
- 
+.card-title {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+
+}
+
+.card-date,
+.card-name {
+    width: 165.3333282470703;
+    height: 16;
+    gap: 8px;
+    padding-left: 14px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.explore {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    background-color:#1B5BE6;
+;
+
+}
