@@ -4,12 +4,14 @@ import { FooterBlockComponent } from './footer-block/footer-block.component';
 import { BlogBlockComponent } from "./blog-block/blog-block.component";
 import { AboutUsComponent } from '../../about-us/about-us.component';
 import { ServiceComponent } from '../../../service/service.component';
+import { ContactComponent } from "./contact/contact.component";
+import { BrandsComponent } from "./brands/brands.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [HomeBlockComponent,
-    FooterBlockComponent, BlogBlockComponent,AboutUsComponent,ServiceComponent],
+    FooterBlockComponent, BlogBlockComponent, AboutUsComponent, ServiceComponent, ContactComponent, BrandsComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

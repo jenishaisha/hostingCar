@@ -28,14 +28,16 @@
 
   <div class="footer-section">
     <h2 style="color: grey;">Contact</h2>
-    <p>Mobile:<a href="tel:8681070707" style="color: red;">8681 07 07 07,96 771 30 471</a><a href="tel:9677130471"
-        style="color: red"></a></p>
-    <p>Landline:<a href="tel:04442647771" style="color: red">044 - 42647771</a></p>
+    <p>Mobile:</p>
+    <a href="tel:8681070707" style="color: red;">8681 07 07 07,96 771 30 471</a><a href="tel:9677130471"
+        style="color: red"></a>
+    <p>Landline:</p>
+    <a href="tel:04442647771" style="color: red">044 - 42647771</a>
     <p>Email:</p><a href="mailto:krsaautocare@gmail.com" style="color: red">krsaautocare&#64;gmail.com</a>
   </div>
 
   <div class="footer-section">
-    <div style="font-weight: 500; font-size: 28px; line-height: 150%;">Enter Your Number for a Quick Response</div>
+    <div style="font-weight: 500; font-size: 28px; line-height: 150%;">Enter Your Number for a<br> Quick Response</div>
     <form [formGroup]="numberForm" (ngSubmit)="onSubmit()">
       <div class="input-wrapper">
         <input appNumberOnly class="phone-input" formControlName="number" placeholder="Enter your Number" name="phoneNumber">
