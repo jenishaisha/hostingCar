@@ -6,7 +6,7 @@
 }
 
 .blog-heading {
-    color: #FFFFFF;
+    color: gray;
     font-family: Inter;
     font-weight: 500px;
     font-size: 18px;
@@ -25,7 +25,7 @@
 }
 
 .blog-card {
-    height: 466px;
+    /* height: 466px; */
     border-radius: 17px;
     padding-bottom: 18px;
     gap: 24px;
@@ -33,9 +33,12 @@
 }
 
 .blog-img {
-    height: 300px;
-    width: 378.67px;
-    border-radius: 8px;
+width: 100%;
+  /* keep the chosen aspect ratio while cropping overflow */
+  height: 300px;          /* pick any fixed height or delete for fluid height  */
+  object-fit: cover;      /* zoom/crop rather than distort */
+  border-radius: 8px;
+  display: block; 
 
 
 }
@@ -81,9 +84,10 @@
     padding-left: 14px;
     display: flex;
     margin-top: 20px;
+   margin-right: auto;
 }
 
-.explore {
+.explores {
     font-family: Lato;
     font-weight: 700;
     font-size: 16px;
@@ -91,6 +95,15 @@
     letter-spacing: 0%;
     color: #FFFFFF;
     background-color:#1B5BE6;
-;
+    width: 161px;
+    height: 50px;
+}
+
+.blog-sub{
+    font-family: 'Inter';
+    font-size: 12px;
+    display: flex;
+    font-weight: 400;
+    color: gray;
 
 }
