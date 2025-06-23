@@ -2,11 +2,43 @@
     <div class="logo-container">
         <img src="/assets/logo.png" alt="logo">
     </div>
-    <div class="menu-container">
-        <button class="menu-items">Home</button>
-        <button class="menu-items">Services</button>
-        <button class="menu-items">About</button>
-        <button class="menu-items">Contact</button>
-        <button class="menu-items">Blog</button>
-    </div>
+<div class="menu-container">
+
+  <button 
+    class="menu-items" 
+    [routerLink]="'/home'" 
+    [ngClass]="{'active-link': router.url === '/home'}">
+    Home
+  </button>
+  <button 
+    class="menu-items" 
+    [routerLink]="'/services'" 
+    [ngClass]="{'active-link': router.url === '/services'}">
+    Services
+  </button>
+
+  <button 
+    class="menu-items" 
+    [routerLink]="'/about'" 
+    [ngClass]="{'active-link': router.url === '/about'}">
+    About
+  </button>
+
+  <button 
+    class="menu-items" 
+    [routerLink]="'/contact'" 
+    [ngClass]="{'active-link': router.url === '/contact'}">
+    Contact
+  </button>
+
+  <button 
+    class="menu-items" 
+    [routerLink]="'/blog'" 
+    [ngClass]="{'active-link': router.url === '/blog'}">
+    Blog
+  </button>
+</div>
+
+
+
 </div>

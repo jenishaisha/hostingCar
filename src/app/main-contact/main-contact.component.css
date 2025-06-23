@@ -1,0 +1,42 @@
+.contact-banner {
+ background-image: url(/assets/home-bg.png);
+  background-size: cover;
+  height: 100vh; /* Or set to 400px if you prefer fixed height */
+  padding: 60px 20px;
+}
+
+.contact-content {
+  max-width: 700px;
+}
+
+.heading-text {
+  font-size: 2.5rem;
+}
+
+.text-primary {
+  color: #1B5BE6 !important;
+}
+
+.subtext {
+  font-size: 1.1rem;
+}
+body {
+  background-color: #000;
+}
+
+.dark-input {
+  background-color: #000;
+  border: 1px solid #444;
+  color: white;
+}
+
+.dark-input::placeholder {
+  color: #aaa;
+}
+
+.contact-box {
+  background-color: #1B5BE6;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
