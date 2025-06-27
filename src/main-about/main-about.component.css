@@ -177,7 +177,7 @@ body {
   font-family: 'Inter';
   font-size: 64px;
   font-weight: 600;
-    color: white;
+  color: white;
 
 }
 
@@ -185,11 +185,13 @@ body {
   text-align: center;
   padding: 40px 20px 10px;
   background-color: #000;
+
 }
 
 .testimonial-title h2 {
-  font-size: 28px;
-  font-weight: 700;
+  font-family: 'Inter';
+  font-size: 64px;
+  font-weight: 500;
 }
 
 .testimonial-title span {
@@ -220,15 +222,18 @@ body {
 }
 
 .review-card p {
-  font-size: 14px;
-  line-height: 1.6;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 500;
   color: #fff;
 }
 
 .reviewer {
   margin-top: 15px;
-  font-weight: bold;
   color: #fff;
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .avatar {
@@ -253,8 +258,8 @@ body {
   background-color: #6f42c1;
 }
 
-.boder{
-    border-left: 1px solid;
-    color: aliceblue;
+.boder {
+  border-left: 1px solid;
+  color: aliceblue;
 
 }

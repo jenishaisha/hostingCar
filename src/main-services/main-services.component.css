@@ -1,0 +1,120 @@
+.heading-text {
+    font-size: 64px;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+.contact-banner {
+    background-image: url(/assets/home-bg.png);
+    background-size: cover;
+    height: 100vh;
+    /* Or set to 400px if you prefer fixed height */
+    padding: 60px 20px;
+    background-color: aquamarine;
+}
+
+.contact-content {
+    max-width: 700px;
+}
+
+.text-primary {
+    color: #1B5BE6 !important;
+}
+
+.subtext {
+    font-size: 27px;
+    /* font-family: 'Lato'; */
+    font-weight: 400;
+}
+
+
+
+.stats-section {
+    background-color: #1B5BE6;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: 600;
+}
+
+.subNumber {
+    color: white;
+    opacity: 0.5;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.stats-section .number {
+    font-family: 'Inter';
+    font-size: 64px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.testimonial-title {
+    text-align: center;
+    padding: 40px 20px 10px;
+    background-color: #000;
+
+}
+
+.testimonial-title h2 {
+    font-family: 'Inter';
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.testimonial-title span {
+    color: #007BFF;
+}
+
+.boder {
+    border-left: 1px solid;
+    color: aliceblue;
+
+}
+
+
+
+
+.service-card {
+    background-color: #292929;
+    /* background-color: #fff; */
+    border-radius: 12px;
+    text-align: center;
+    padding: 30px 20px;
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+.service-card h6{
+
+    color: #fff;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    font-size: 40px;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Inter';
+
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
