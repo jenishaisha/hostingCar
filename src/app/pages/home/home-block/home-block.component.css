@@ -116,3 +116,12 @@ button {
   transition: transform 0.5s ease-in-out !important;
   opacity: 1 !important;
 }
+
+.page-blocks{
+
+min-height: 100vh;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: #605F5F40;
+
+}
