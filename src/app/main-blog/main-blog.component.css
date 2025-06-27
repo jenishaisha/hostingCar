@@ -1,0 +1,147 @@
+/* main */
+.body{
+
+  background-color: #000;
+}
+.heading-text {
+     font-size: 64px;
+    font-family: "poppins";
+    font-weight: 500;
+    line-height: 110%;
+}
+.contact-banner {
+  background-image: url(/assets/home-bg.png);
+  background-size: cover;
+  height: 100vh;
+  /* Or set to 400px if you prefer fixed height */
+  padding: 60px 20px;
+  background-color: aquamarine;
+}
+
+.contact-content {
+  max-width: 700px;
+}
+.text-primary {
+  color: #1B5BE6 !important;
+}
+
+.subtext {
+  font-size: 27px;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+
+/*  */
+
+
+
+.page-block {
+    min-height: 100vh;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: black;
+}
+
+.blog-heading {
+    color: gray;
+    font-family: Inter;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    padding-top: 80px;
+}
+
+.sub-heading {
+    font-family: 'Lato';
+    font-weight: 500px;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    margin-bottom: 80px;
+}
+
+.blog-card {
+    /* height: 466px; */
+    border-radius: 17px;
+    padding-bottom: 18px;
+    gap: 24px;
+    background-color: #fff;
+}
+
+.blog-img {
+width: 100%;
+  /* keep the chosen aspect ratio while cropping overflow */
+  height: 300px;          /* pick any fixed height or delete for fluid height  */
+  object-fit: cover;      /* zoom/crop rather than distort */
+  border-radius: 8px;
+  display: block; 
+
+
+}
+
+/* p{
+    padding-right: 14px;
+    padding-left: 14px;
+    gap:16px;
+} */
+.read-time {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #222222;
+
+}
+
+.blog-content {
+    width: 378.6666564941406;
+    height: 84;
+    gap: 16px;
+    padding-right: 14px;
+    padding-left: 14px;
+    margin-top: 20px;
+}
+
+.card-title {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+
+}
+
+.card-date,
+.card-name {
+    width: 165.3333282470703;
+    height: 16;
+    gap: 8px;
+    padding-left: 14px;
+    display: flex;
+    margin-top: 20px;
+   margin-right: auto;
+}
+
+.explores {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    background-color:#1B5BE6;
+    width: 161px;
+    height: 50px;
+}
+
+.blog-sub{
+    font-family: 'Inter';
+    font-size: 12px;
+    display: flex;
+    font-weight: 400;
+    color: gray;
+
+}
