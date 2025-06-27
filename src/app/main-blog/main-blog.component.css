@@ -1,3 +1,41 @@
+/* main */
+.body{
+
+  background-color: #000;
+}
+.heading-text {
+     font-size: 64px;
+    font-family: "poppins";
+    font-weight: 500;
+    line-height: 110%;
+}
+.contact-banner {
+  background-image: url(/assets/home-bg.png);
+  background-size: cover;
+  height: 100vh;
+  /* Or set to 400px if you prefer fixed height */
+  padding: 60px 20px;
+  background-color: aquamarine;
+}
+
+.contact-content {
+  max-width: 700px;
+}
+.text-primary {
+  color: #1B5BE6 !important;
+}
+
+.subtext {
+  font-size: 27px;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+
+/*  */
+
+
+
 .page-block {
     min-height: 100vh;
     padding-left: 6%;
@@ -29,7 +67,7 @@
     border-radius: 17px;
     padding-bottom: 18px;
     gap: 24px;
-    background-color: #EDF2FD;
+    background-color: #fff;
 }
 
 .blog-img {

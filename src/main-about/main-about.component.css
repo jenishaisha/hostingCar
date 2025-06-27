@@ -1,0 +1,265 @@
+.body {
+
+  background-color: #000;
+}
+
+.heading-text {
+  font-size: 64px;
+  font-family: 'poppins';
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.contact-banner {
+  background-image: url(/assets/home-bg.png);
+  background-size: cover;
+  height: 100vh;
+  /* Or set to 400px if you prefer fixed height */
+  padding: 60px 20px;
+  background-color: aquamarine;
+}
+
+.contact-content {
+  max-width: 700px;
+}
+
+.text-primary {
+  color: #1B5BE6 !important;
+}
+
+.subtext {
+  font-size: 27px;
+  /* font-family: 'Lato'; */
+  font-weight: 400;
+}
+
+body {
+  background-color: #000;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-section {
+  padding: 60px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #000;
+}
+
+.hero-left {
+  max-width: 600px;
+}
+
+.hero-left small {
+  color: #cfcfcf;
+  font-size: 16px;
+}
+
+.hero-left h1 {
+  font-size: 64px;
+  font-weight: 500;
+  /* line-height: 1.2; */
+  font-family: 'Poppins';
+  color: #fff;
+}
+
+.highlight {
+  color: #2962ff;
+}
+
+.hero-left p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Lato';
+  font-weight: 400;
+  color: #D3D3D3;
+}
+
+.btn-learn {
+  background-color: #2962ff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-top: 30px;
+  color: #fff;
+}
+
+.hero-right {
+  position: relative;
+  max-width: 540px;
+}
+
+.main-image {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0px;
+  left: -62px;
+  width: 160px;
+  height: auto;
+  border-radius: 12px;
+  /* border: 1px solid; */
+  border-radius: 15px;
+}
+
+.experience-box {
+  position: absolute;
+  top: 0px;
+  right: -65px;
+  background-color: #1B5BE6;
+  padding: 20px 24px;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+.experience-box span {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.experience-box small {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-right {
+    margin-top: 40px;
+  }
+
+  .experience-box {
+    right: 10px;
+    top: 10px;
+    padding: 15px;
+  }
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.stats-section {
+  background-color: #007BFF;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-weight: 600;
+}
+
+.subNumber {
+  color: white;
+  opacity: 0.5;
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.stats-section .number {
+  font-family: 'Inter';
+  font-size: 64px;
+  font-weight: 600;
+  color: white;
+
+}
+
+.testimonial-title {
+  text-align: center;
+  padding: 40px 20px 10px;
+  background-color: #000;
+
+}
+
+.testimonial-title h2 {
+  font-family: 'Inter';
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.testimonial-title span {
+  color: #007BFF;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: black;
+}
+
+.review-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+}
+
+.stars {
+  color: #007BFF;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.review-card p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.reviewer {
+  margin-top: 15px;
+  color: #fff;
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 6px;
+  background-color: #d63384;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.review-card:nth-child(2) .avatar {
+  background-color: #00bcd4;
+}
+
+.review-card:nth-child(3) .avatar {
+  background-color: #6f42c1;
+}
+
+.boder {
+  border-left: 1px solid;
+  color: aliceblue;
+
+}
