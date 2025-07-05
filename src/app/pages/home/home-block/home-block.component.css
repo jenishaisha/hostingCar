@@ -55,7 +55,7 @@ button {
     height: 61px;
     width: 228px;
     border: 1px solid;
-
+    background: rgba(0, 0, 0, 0.85);
 
 
 }

@@ -2,7 +2,8 @@
   background-color: #131921;
   color: white;
   font-family: 'Lato';
-  background-image: url('/assets/footer-bg.png');
+  background-image: url('../../../../assets/footer-bg.png');
+  background-size: cover;
 }
 
 .footer-container {

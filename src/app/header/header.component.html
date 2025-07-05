@@ -1,18 +1,20 @@
 <div class="header-container">
     <div class="logo-container">
-        <img src="/assets/logo.png" alt="logo">
+        <img src="./assets/logo.png" alt="logo">
     </div>
 <div class="menu-container">
 
   <button 
     class="menu-items" 
     [routerLink]="'/home'" 
+    (click)="scrollToTop()"
     [ngClass]="{'active-link': router.url === '/home'}">
     Home
   </button>
   <button 
     class="menu-items" 
     [routerLink]="'/service'" 
+    (click)="scrollToTop()"
     [ngClass]="{'active-link': router.url === '/service'}">
     Services
   </button>
@@ -20,6 +22,7 @@
   <button 
     class="menu-items" 
     [routerLink]="'/about'" 
+    (click)="scrollToTop()"
     [ngClass]="{'active-link': router.url === '/about'}">
     About
   </button>
@@ -27,6 +30,7 @@
   <button 
     class="menu-items" 
     [routerLink]="'/contact'" 
+    (click)="scrollToTop()"
     [ngClass]="{'active-link': router.url === '/contact'}">
     Contact
   </button>
@@ -34,6 +38,7 @@
   <button 
     class="menu-items" 
     [routerLink]="'/blog'" 
+    (click)="scrollToTop()"
     [ngClass]="{'active-link': router.url === '/blog'}">
     Blog
   </button>

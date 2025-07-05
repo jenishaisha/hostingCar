@@ -15,5 +15,8 @@ import { Router, RouterLink, RouterOutlet } from '@angular/router';
 export class HeaderComponent {
   constructor(public router: Router){}
 
+  scrollToTop(){
+    window.scrollTo({top:0, behavior: 'instant'})
+  }
 }
 

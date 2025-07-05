@@ -1,5 +1,5 @@
 .contact-container {
-    background-image: url('/assets/contact-img.jpg');
+    background-image: url('../../../../assets/contact-img.jpg');
         background-position: center;
     background-size: cover;
     background-color: rgb(0 0 0 / 65%);

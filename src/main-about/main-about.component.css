@@ -12,7 +12,7 @@
 
 .contact-banner {
   /* background-image: url(/assets/home-bg.png); */
-  background-image: url(/assets/homeimage.jpg);
+  background-image: url('../assets/homeimage.jpg');
   background-size: cover;
   height: 100vh;
   /* Or set to 400px if you prefer fixed height */
