@@ -11,3 +11,12 @@ html,body{
     background-color: black;
     color: white;
 }
+
+.icon-button{
+  background: none;
+  border: none;
+  outline: none;
+  ng-icon{
+    display: flex;
+  }
+}

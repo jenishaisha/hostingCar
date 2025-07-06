@@ -2,7 +2,7 @@
     <div class="logo-container">
         <img src="./assets/logo.png" alt="logo">
     </div>
-<div class="menu-container">
+<div class="menu-container d-none d-lg-block">
 
   <button 
     class="menu-items" 
@@ -43,7 +43,51 @@
     Blog
   </button>
 </div>
+<div class="d-lg-none">
+  <button class="icon-button" style="color: white;" (click)="openSidenav()">
+      <ng-icon name="bootstrapList"></ng-icon>
+  </button>
+</div>
+</div>
 
-
-
+<div #sideNav class="sidenav-container" [ngClass]="{'sidenav-container--open': isSidenavOpen}">
+  <button 
+    class="menu-items" 
+    [routerLink]="'/home'" 
+    (click)="scrollToTop();closeSidenav()"
+    [ngClass]="{'active-link': router.url === '/home'}">
+    Home
+  </button>
+  <br/>
+  <button 
+    class="menu-items" 
+    [routerLink]="'/service'" 
+    (click)="scrollToTop();closeSidenav()"
+    [ngClass]="{'active-link': router.url === '/service'}">
+    Services
+  </button>
+<br/>
+  <button 
+    class="menu-items" 
+    [routerLink]="'/about'" 
+    (click)="scrollToTop();closeSidenav()"
+    [ngClass]="{'active-link': router.url === '/about'}">
+    About
+  </button>
+<br/>
+  <button 
+    class="menu-items" 
+    [routerLink]="'/contact'" 
+    (click)="scrollToTop();closeSidenav()"
+    [ngClass]="{'active-link': router.url === '/contact'}">
+    Contact
+  </button>
+<br/>
+  <button 
+    class="menu-items" 
+    [routerLink]="'/blog'" 
+    (click)="scrollToTop();closeSidenav()"
+    [ngClass]="{'active-link': router.url === '/blog'}">
+    Blog
+  </button>
 </div>

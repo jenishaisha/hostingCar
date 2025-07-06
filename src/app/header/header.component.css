@@ -47,3 +47,16 @@
     font-family: 'Manrope';
     font-weight: 700;
 }
+
+.sidenav-container{
+    position: fixed;
+    right: 0px;
+    top:0px;
+    bottom: 0px;
+    background-color: #2b2828;
+    width: 0px;
+    z-index:1000;
+}
+.sidenav-container--open{
+    width: 300px;
+}
