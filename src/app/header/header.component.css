@@ -14,7 +14,7 @@
     background-color: transparent;
     color: white;
     border: none;
-    font-size: 16px;
+    font-size: 18;
     font-family: 'Manrope';
     font-weight: 500;
 }
@@ -43,7 +43,7 @@
     text-decoration: none;
     background-color: transparent;
     border: none;
-    font-size: 16px;
+    font-size: 18;
     font-family: 'Manrope';
     font-weight: 700;
 }
@@ -53,10 +53,12 @@
     right: 0px;
     top:0px;
     bottom: 0px;
-    background-color: #2b2828;
+    background-color: #110606;
     width: 0px;
     z-index:1000;
+    line-height: 15vh;
+    font-size: 20px
 }
 .sidenav-container--open{
-    width: 300px;
+    width: 250px;
 }

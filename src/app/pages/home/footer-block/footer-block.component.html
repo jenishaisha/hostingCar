@@ -1,6 +1,6 @@
-<footer class="footer">
-  <div class="footer-container">
-  <div class="footer-section col-4">
+<footer class="footer container-fluid">
+  <div class="footer-container row">
+  <div class="footer-section col-sm-4">
     <div>
       <img src="./assets/logo.png" alt="logo" class="ps-3 footer-img">
     </div>
@@ -26,7 +26,7 @@
     </div>
   </div>
 
-  <div class="footer-section col-4">
+  <div class="footer-section col-sm-4">
     <h2 style="color: grey; font-size: 22px;  font-weight: 700;">Contact</h2>
     <p>Mobile:</p>
     <span href="tel:8681070707" style="color: red;">8681 07 07 07,  96 771 30 471</span>
@@ -35,7 +35,7 @@
     <p>Email:</p><span href="mailto:krsaautocare@gmail.com" style="color: red">krsaautocare&#64;gmail.com</span>
   </div>
 
-  <div class="footer-section col-4">
+  <div class="footer-section col-sm-4">
     <div style="font-weight: 500; font-size: 28px; line-height: 150%;">Enter Your Number for a<br> Quick Response</div>
     <form [formGroup]="numberForm" (ngSubmit)="onSubmit()">
       <div class="input-wrapper">
