@@ -1,107 +1,108 @@
 .brand-head {
-    font-family: Lato;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 56px;
-    letter-spacing: 0%;
-    text-align: center;
-    padding-top: 100px;
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 100px;
 }
 
 .carousel-item img {
-    object-fit: cover;
-    border-radius: 24px;
+  object-fit: cover;
+  border-radius: 24px;
 }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
 }
 
 .text-primary {
-    color: #0d6efd !important;
+  color: #0d6efd !important;
 }
 
 .card-img-top {
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px 8px 0 0;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
 }
 
 .card {
 
-    background-color: black;
+  background-color: black;
 
 }
 
 .title {
-    text-align: left;
-    font-family: Manrope;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 140%;
-    letter-spacing: 0px;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: 0px;
 
 }
 
 .luxury-brand-head {
-    font-family: Lato;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 56px;
-    letter-spacing: 0%;
-    text-align: center;
-    padding-bottom: 70px;
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 70px;
 }
 
 
 /* carosal */
 
- body {
-      background-color: #000;
-      color: #fff;
-    }
+body {
+  background-color: #000;
+  color: #fff;
+}
 
-    .carousel-title {
-      text-align: center;
-      font-size: 2rem;
-      margin-bottom: 1.5rem;
-    }
+.carousel-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
 
-    .carousel-title span {
-      color: #007bff; /* Bootstrap primary color */
-    }
+.carousel-title span {
+  color: #007bff;
+  /* Bootstrap primary color */
+}
 
-    .carousel .carousel-item {
-      padding: 20px 0;
-    }
+.carousel .carousel-item {
+  padding: 20px 0;
+}
 
-    .card img {
-      border-radius: 15px;
-      height: 180px;
-      object-fit: cover;
-    }
+.card img {
+  border-radius: 15px;
+  height: 180px;
+  object-fit: cover;
+}
 
-    .card-title {
-      margin-top: 10px;
-      text-align: center;
-      color: #fff;
-    }
+.card-title {
+  margin-top: 10px;
+  text-align: center;
+  color: #fff;
+}
 
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-      background-color: #007bff;
-      border-radius: 50%;
-      padding: 10px;
-    }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #007bff;
+  border-radius: 50%;
+  padding: 10px;
+}
 
-    .carousel-inner .row {
-      justify-content: center;
-    }
+.carousel-inner .row {
+  justify-content: center;
+}
 
-.carosalWidth{
-    width: 264px;
-    border-radius: 28px;
+.carosalWidth {
+  width: 264px;
+  border-radius: 28px;
 }
 
 .carousel-buttons {
@@ -112,6 +113,13 @@
   display: flex;
   gap: 30px;
 }
+
 .carousel-buttons img {
   vertical-align: middle;
+}
+
+@media (max-width: 490px) {
+  .carousel-title {
+    margin-bottom: 5.5rem;
+  }
 }

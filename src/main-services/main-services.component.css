@@ -1,4 +1,11 @@
-.heading-text {
+
+
+
+@media (max-width: 490px) {
+  .carousel-title {
+    margin-bottom: 5.5rem;
+  }
+}.heading-text {
     font-size: 54px;
     font-family: 'poppins';
     font-weight: 500;
@@ -120,4 +127,21 @@
 
 .btn-custom:hover {
     background-color: #0056b3;
+}
+
+
+@media (max-width: 490px) {
+
+.stats-section .number {
+    font-size: 16px;
+}
+.subNumber {
+    font-size: 8px;
+}
+.heading-text {
+    font-size: 36px;
+   
+}
+
+
 }

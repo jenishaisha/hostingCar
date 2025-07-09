@@ -266,3 +266,38 @@ body {
   color: aliceblue;
 
 }
+
+
+@media (max-width: 490px) {
+
+  .stats-section .number {
+    font-size: 16px;
+  }
+
+  .subNumber {
+    font-size: 8px;
+  }
+
+  .heading-text {
+    font-size: 46px;
+
+
+  }
+
+  .hero-left h1 {
+    font-size: 46px;
+  }
+
+  .testimonial-title h2 {
+    font-size: 46px;
+
+  }
+
+.reviewer {
+
+
+    font-size: 18px;
+
+}
+
+}

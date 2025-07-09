@@ -112,3 +112,12 @@ body {
     padding: 10px;
   }
 }
+
+
+@media (max-width: 390px) {
+.hero-left h1{
+    font-size: 36px;
+
+}
+
+}

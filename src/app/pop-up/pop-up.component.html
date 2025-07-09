@@ -1,0 +1,35 @@
+<div class="container  position-relative" style="max-width: 400px; background-color: white; padding: 25px;">
+    <!-- Close Button -->
+<button type="button" class="custom-close" (click)="onClose()">×</button>
+
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name : </label>
+            <input type="text" class="form-control shadow-sm" id="name" placeholder="">
+        </div>
+
+        <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number :</label>
+            <input type="text" class="form-control shadow-sm" id="phone" placeholder="">
+        </div>
+
+        <div class="mb-3">
+            <label for="carBrand" class="form-label">Car Brand :</label>
+            <input type="text" class="form-control shadow-sm" id="carBrand" placeholder="">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Service Requirements :</label>
+            <div class="flex-wrap gap-3 d-flex">
+                <mat-checkbox *ngFor="let service of services" [(ngModel)]="service.selected"
+                    [ngModelOptions]="{standalone: true}">
+                    {{ service.name }}
+                </mat-checkbox>
+            </div>
+        </div>
+
+        <div class="d-grid">
+            <button type="submit" class="btn btn-submit">Submit</button>
+        </div>
+    </form>
+</div>

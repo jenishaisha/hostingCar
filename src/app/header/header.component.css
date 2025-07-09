@@ -56,9 +56,18 @@
     background-color: #110606;
     width: 0px;
     z-index:1000;
-    line-height: 15vh;
+    line-height: 9vh;
     font-size: 20px
 }
 .sidenav-container--open{
     width: 250px;
+}
+
+.close-icon{
+    color: antiquewhite;
+    top: -16px;
+    position: absolute;
+    right: 16px;
+    font-size: 30px;
+    font-weight: 600;
 }
