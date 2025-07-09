@@ -9,7 +9,7 @@
 
 .content {
     margin-left: 40px;
-    font-size: 15px;
+    font-size: 27px;
     font-family: 'Lato';
     color: white;
 
@@ -126,5 +126,16 @@ button {
     padding-left: 6%;
     padding-right: 6%;
     background-color: #605F5F40;
+
+}
+
+
+
+@media (max-width: 490px) {
+
+.main-heading {
+    font-size: 44px;
+ }
+
 
 }

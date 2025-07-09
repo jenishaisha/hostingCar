@@ -117,3 +117,12 @@ body {
   line-height: 30px;
   /* 133.333% */
 }
+
+
+@media (max-width: 767px) {
+
+.dark-input{
+  
+    margin-bottom: 20px;
+}
+}

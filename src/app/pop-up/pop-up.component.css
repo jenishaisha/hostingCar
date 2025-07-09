@@ -1,0 +1,43 @@
+ .btn-submit {
+       background-color: #1B5BE6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 22px;
+  }
+
+  .btn-submit:hover {
+    background-color: #0095dd;
+  }
+
+  /* Optional: focus effect */
+  .form-control:focus, .form-select:focus {
+    border-color: #00aaff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 170, 255, 0.25);
+  }
+
+.form-label {
+    margin-bottom: .5rem;
+    font-size: 17px;
+    font-weight: 500;
+}
+.btn-close {
+  background: none; /* Remove default SVG */
+  font-size: 20px;
+  color: black;
+  opacity: 1; /* Ensure full visibility */
+}
+
+.custom-close {
+    position: absolute;
+    top: -19px;
+    right: 0.5rem;
+    background: none;
+    border: none;
+    font-size: 46px;
+    color: black;
+    cursor: pointer;
+}
