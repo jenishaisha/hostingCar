@@ -1,24 +1,30 @@
 <div class="container  position-relative" style="max-width: 400px; background-color: white; padding: 25px;">
     <!-- Close Button -->
-<button type="button" class="custom-close" (click)="onClose()">×</button>
+    <button type="button" class="custom-close" (click)="onClose()">×</button>
 
-    <form>
-        <div class="mb-3">
-            <label for="name" class="form-label">Name : </label>
-            <input type="text" class="form-control shadow-sm" id="name" placeholder="">
+    <form (ngSubmit)="onSubmit()">
+        <div class="mb-2">
+            <label class="form-label">Name :</label>
+            <input type="text" class="form-control shadow-sm" [(ngModel)]="name" name="name"
+                [ngClass]="{ 'input-error': submitted && !name.trim() }" />
+            <div *ngIf="submitted && !name.trim()" class="error-msg">Name is required</div>
+        </div>
+        <div class="mb-2">
+            <label class="form-label">Phone Number :</label>
+            <input type="text" class="form-control shadow-sm" [(ngModel)]="phone" name="phone" maxlength="10"
+                pattern="[0-9]*" inputmode="numeric" [ngClass]="{ 'input-error': submitted && !phone.trim() }" />
+            <div *ngIf="submitted && !phone.trim()" class="error-msg">Phone number is required</div>
         </div>
 
-        <div class="mb-3">
-            <label for="phone" class="form-label">Phone Number :</label>
-            <input type="text" class="form-control shadow-sm" id="phone" placeholder="">
+
+        <div class="mb-2">
+            <label class="form-label">Car Brand:</label>
+            <input type="text" class="form-control shadow-sm" [(ngModel)]="carBrand" name="carBrand"
+                [ngClass]="{ 'input-error': submitted && !carBrand.trim() }" />
+            <div *ngIf="submitted && !carBrand.trim()" class="error-msg">Car brand is required</div>
         </div>
 
-        <div class="mb-3">
-            <label for="carBrand" class="form-label">Car Brand :</label>
-            <input type="text" class="form-control shadow-sm" id="carBrand" placeholder="">
-        </div>
-
-        <div class="mb-3">
+        <div class="mb-2">
             <label class="form-label">Service Requirements :</label>
             <div class="flex-wrap gap-3 d-flex">
                 <mat-checkbox *ngFor="let service of services" [(ngModel)]="service.selected"

@@ -16,17 +16,27 @@ import { SocialIconsComponent } from './social-icons/social-icons.component';
 })
 export class FooterBlockComponent {
   numberForm: FormGroup;
-  constructor(private fb: FormBuilder){
+  constructor(private fb: FormBuilder) {
     this.numberForm = this.fb.group({
-      number: ['', [Validators.pattern(/^[0-9]*$/)]]
+      number: ['', [Validators.required, Validators.pattern(/^[0-9]*$/)]]
     });
+
   }
+
 
   onSubmit() {
     if (this.numberForm.valid) {
-      console.log('Form submitted:', this.numberForm.value);
+      const enteredNumber = this.numberForm.value.number;
+      const formattedNumber = `+91 ${enteredNumber}`;
+      const recipientNumber = '918903936283'; // Recipient's WhatsApp number (with country code, no '+' symbol)
+
+      const message = `New service inquiry from customer : ${formattedNumber}`;
+      const whatsappUrl = `https://wa.me/${recipientNumber}?text=${encodeURIComponent(message)}`;
+
+      window.open(whatsappUrl, '_blank');
     } else {
       console.log('Form is invalid');
     }
   }
+
 }
