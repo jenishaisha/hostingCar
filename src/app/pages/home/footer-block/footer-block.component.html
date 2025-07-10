@@ -1,53 +1,57 @@
 <footer class="footer container-fluid">
   <div class="footer-container row">
-  <div class="footer-section col-sm-4">
-    <div>
-      <img src="./assets/logo.png" alt="logo" class="ps-3 footer-img">
-    </div>
-    <div>
-      <p style="font-size:16px; line-height: 25px;  font-weight: 700;">Quality car service for multiple brands with efficiency</p>
-    </div>
-    <div class="social-icons">
-      <a href="https://www.facebook.com/profile.php?id=61573723112203#" target="_blank">
-        <app-social-icons iconName="facebook"></app-social-icons>
-      </a>
-      <div class="divider"></div>
-      <a href="https://www.instagram.com/sivaautocare?igsh=MW9zejFpaXB1aWdtaw%3D%3D&utm_source=qr">
-        <app-social-icons iconName="twitter"></app-social-icons>
-      </a>
-      <div class="divider"></div>
-      <a href="https://www.facebook.com/profile.php?id=61573723112203#" target="_blank">
-        <app-social-icons iconName="instagram"></app-social-icons>
-      </a>
-      <div class="divider"></div>
-      <a href="https://www.instagram.com/sivaautocare?igsh=MW9zejFpaXB1aWdtaw%3D%3D&utm_source=qr">
-        <app-social-icons iconName="youtube"></app-social-icons>
-      </a>
-    </div>
-  </div>
-
-  <div class="footer-section col-sm-4">
-    <h2 style="color: grey; font-size: 22px;  font-weight: 700;">Contact</h2>
-    <p>Mobile:</p>
-    <span href="tel:8681070707" style="color: red;">8681 07 07 07,  96 771 30 471</span>
-    <p>Landline:</p>
-    <span href="tel:04442647771" style="color: red">044 - 42647771</span>
-    <p>Email:</p><span href="mailto:krsaautocare@gmail.com" style="color: red">krsaautocare&#64;gmail.com</span>
-  </div>
-
-  <div class="footer-section col-sm-4">
-    <div style="font-weight: 500; font-size: 28px; line-height: 150%;">Enter Your Number for a<br> Quick Response</div>
-    <form [formGroup]="numberForm" (ngSubmit)="onSubmit()">
-      <div class="input-wrapper">
-        <input appNumberOnly class="phone-input" formControlName="number" placeholder="Enter your Number" name="phoneNumber">
-        <button type="submit" class="input-btn">
-          <span class="material-symbols-outlined">
-            arrow_forward
-          </span>
-        </button>
+    <div class="footer-section col-sm-4">
+      <div>
+        <img src="./assets/logo.png" alt="logo" class="ps-3 footer-img">
       </div>
-    </form>
-  </div>
+      <div>
+        <p style="font-size:16px; line-height: 25px;  font-weight: 700;">Quality car service for multiple brands with
+          efficiency</p>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=61573723112203#" target="_blank">
+          <app-social-icons iconName="facebook"></app-social-icons>
+        </a>
+        <div class="divider"></div>
+        <a>
+          <app-social-icons iconName="twitter"></app-social-icons>
+        </a>
+        <div class="divider"></div>
+        <a href="https://www.facebook.com/profile.php?id=61573723112203#" target="_blank">
+          <app-social-icons iconName="instagram"></app-social-icons>
+        </a>
+        <div class="divider"></div>
+        <a>
+          <app-social-icons iconName="youtube"></app-social-icons>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-section col-sm-4">
+      <h2 style="color: grey; font-size: 22px;  font-weight: 700;">Contact</h2>
+      <p>Mobile:</p>
+      <span href="tel:8681070707" style="color: red;">81 110 79 797 , 96 771 30 471</span>
+     
+      <p>Landline:</p>
+      <span href="tel:04442647771" style="color: red">044-24747771</span>
+      <p>Email:</p><span href="mailto:krsaautocare@gmail.com" style="color: red">sivaautocare25&#64;gmail.com</span>
+    </div>
+
+    <div class="footer-section col-sm-4">
+      <div style="font-weight: 500; font-size: 28px; line-height: 150%;">Enter Your Number for a<br> Quick Response
+      </div>
+      <form [formGroup]="numberForm" (ngSubmit)="onSubmit()">
+        <div class="input-wrapper">
+          <input appNumberOnly class="phone-input" formControlName="number" placeholder="Enter your Number"
+            name="phoneNumber">
+          <button type="submit" class="input-btn">
+            <span class="material-symbols-outlined">
+              arrow_forward
+            </span>
+          </button>
+        </div>
+      </form>
+    </div>
   </div>
   <div>
     <p class="footer-bottom">Copyright 2023 All Right Reserved</p>
