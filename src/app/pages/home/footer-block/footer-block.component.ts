@@ -28,7 +28,7 @@ export class FooterBlockComponent {
     if (this.numberForm.valid) {
       const enteredNumber = this.numberForm.value.number;
       const formattedNumber = `+91 ${enteredNumber}`;
-      const recipientNumber = '918903936283'; // Recipient's WhatsApp number (with country code, no '+' symbol)
+      const recipientNumber = '919677130471'; 
 
       const message = `New service inquiry from customer : ${formattedNumber}`;
       const whatsappUrl = `https://wa.me/${recipientNumber}?text=${encodeURIComponent(message)}`;

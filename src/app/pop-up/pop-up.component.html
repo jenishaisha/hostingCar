@@ -1,4 +1,4 @@
-<div class="container  position-relative" style="max-width: 400px; background-color: white; padding: 25px;">
+<div class="container  position-relative" style="max-width: 400px; background-color: white; padding: 25px; border-radius: 5px;">
     <!-- Close Button -->
     <button type="button" class="custom-close" (click)="onClose()">×</button>
 
@@ -20,8 +20,8 @@
         <div class="mb-2">
             <label class="form-label">Car Brand:</label>
             <input type="text" class="form-control shadow-sm" [(ngModel)]="carBrand" name="carBrand"
-                [ngClass]="{ 'input-error': submitted && !carBrand.trim() }" />
-            <div *ngIf="submitted && !carBrand.trim()" class="error-msg">Car brand is required</div>
+                />
+            <!-- <div *ngIf="submitted && !carBrand.trim()" class="error-msg">Car brand is required</div> -->
         </div>
 
         <div class="mb-2">
