@@ -30,7 +30,7 @@ export class MainContactComponent {
     const fullName = `${this.firstName.trim()} ${this.lastName.trim()}`;
     const extraNote = "This message was sent from the booking form on the website.";
     const msg = `New Booking – Siva Auto Care :\n\nName: ${fullName}\nEmail : ${this.email.trim()}\nPhone : +91 ${this.phone.trim()}\nMessage : ${this.message.trim() || 'N/A'}\n\n${extraNote}`;
-    const whatsappUrl = `https://wa.me/919750250154?text=${encodeURIComponent(msg)}`;
+    const whatsappUrl = `https://wa.me/919677130471?text=${encodeURIComponent(msg)}`;
     window.open(whatsappUrl, '_blank');
 
     // Optional: Reset form

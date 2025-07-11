@@ -32,7 +32,7 @@ popUpShow=false
       setTimeout(() => {
         this.popUpShow = true;
         document.body.style.overflow = 'hidden'; // disable scroll
-      }, 1000);
+      }, 5000);
     }
   }
   onClosePopup() {
