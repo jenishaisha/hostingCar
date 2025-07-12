@@ -16,72 +16,39 @@
       <h5 class="headingSub">Send us a Message!</h5>
       <p class="headingSubsmall">We're here to assist you. Send us a message, and we’ll get back to you with the
         information you need.</p>
-   <form (ngSubmit)="onBookNow()" #bookForm="ngForm">
-  <div class="row mb-3">
-    <div class="col-sm">
-      <input
-        type="text"
-        class="form-control dark-input"
-        placeholder="First Name"
-        [(ngModel)]="firstName"
-        name="firstName"
-        required
-         [ngClass]="{ 'input-error': submitted && !firstName.trim() }"
-      />
-      <div *ngIf="submitted && !firstName.trim()" class="error-msg mb-2">
-        First name is required
-      </div>
-    </div>
-    <div class="col-sm">
-      <input
-        type="text"
-        class="form-control dark-input"
-        placeholder="Last Name"
-        [(ngModel)]="lastName"
-        name="lastName"
-        required
-      />
-    </div>
-  </div>
+      <form (ngSubmit)="onBookNow()" #bookForm="ngForm">
+        <div class="row mb-3">
+          <div class="col-sm">
+            <input type="text" class="form-control dark-input" placeholder="First Name" [(ngModel)]="firstName"
+              name="firstName" required [ngClass]="{ 'input-error': submitted && !firstName.trim() }" />
+            <div *ngIf="submitted && !firstName.trim()" class="error-msg mb-2">
+              First name is required
+            </div>
+          </div>
+          <div class="col-sm">
+            <input type="text" class="form-control dark-input" placeholder="Last Name" [(ngModel)]="lastName"
+              name="lastName" required />
+          </div>
+        </div>
 
-  <div class="row mb-3">
-    <div class="col-sm">
-      <input
-        type="email"
-        class="form-control dark-input"
-        placeholder="Email"
-        [(ngModel)]="email"
-        name="email"
-        required
-      />
-    </div>
-    <div class="col-sm">
-      <input
-        type="tel"
-        class="form-control dark-input"
-        placeholder="Phone"
-        [(ngModel)]="phone"
-        name="phone"
-        maxlength="10"
-        pattern="[0-9]*"
-        inputmode="numeric"
-        required
-      />
-    </div>
-  </div>
+        <div class="row mb-3">
+          <div class="col-sm">
+            <input type="email" class="form-control dark-input" placeholder="Email" [(ngModel)]="email" name="email"
+              required />
+          </div>
+          <div class="col-sm">
+            <input type="tel" class="form-control dark-input" placeholder="Phone" [(ngModel)]="phone" name="phone"
+              maxlength="10" pattern="[0-9]*" inputmode="numeric" required />
+          </div>
+        </div>
 
-  <div class="mb-3">
-    <textarea
-      class="form-control dark-input"
-      rows="4"
-      placeholder="Message"
-      [(ngModel)]="message"
-      name="message"
-    ></textarea>
-  </div>
+        <div class="mb-3">
+          <textarea class="form-control dark-input" rows="4" placeholder="Message" [(ngModel)]="message"
+            name="message"></textarea>
+        </div>
 
-  <button type="submit" class="btn bookNow mt-2 mb-5">Book Now</button>
-</form>
+        <button type="submit" class="btn bookNow mt-2 mb-5">Book Now</button>
+      </form>
 
     </div>
     <!-- Contact Info -->
@@ -116,30 +83,31 @@
       </div>
 
       <div class="col-sm-12 mt-2 contact-box">
-        <div class="d-flex justify-content-center align-items-center">
-          <div style="padding: 6px;">
+        <div class="d-flex  align-items-center">
+          <div style="padding:16px;">
             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="16" viewBox="0 0 19 16" fill="none">
               <path
                 d="M1.90625 15.5C1.39062 15.5 0.949219 15.3164 0.582031 14.9492C0.214844 14.582 0.03125 14.1406 0.03125 13.625V2.375C0.03125 1.85938 0.214844 1.41797 0.582031 1.05078C0.949219 0.683594 1.39062 0.5 1.90625 0.5H16.9062C17.4219 0.5 17.8633 0.683594 18.2305 1.05078C18.5977 1.41797 18.7812 1.85938 18.7812 2.375V13.625C18.7812 14.1406 18.5977 14.582 18.2305 14.9492C17.8633 15.3164 17.4219 15.5 16.9062 15.5H1.90625ZM16.9062 4.25L9.89844 8.63281C9.82031 8.67969 9.73828 8.71484 9.65234 8.73828C9.56641 8.76172 9.48438 8.77344 9.40625 8.77344C9.32812 8.77344 9.24609 8.76172 9.16016 8.73828C9.07422 8.71484 8.99219 8.67969 8.91406 8.63281L1.90625 4.25V13.625H16.9062V4.25ZM9.40625 7.0625L16.9062 2.375H1.90625L9.40625 7.0625ZM1.90625 4.48438V3.10156V3.125V3.11328V4.48438Z"
                 fill="white" />
             </svg>
           </div>
-          <span class="ms-2">sivaautocare25&#64;gmail.com</span>
+          <span class="ms-2" style="word-break: break-word;">sivaautocare25&#64;gmail.com</span>
         </div>
       </div>
       <h6 class="follow mt-5">Follow Us on</h6>
       <div class="d-flex gap-2">
-        <img src="../../assets/Vector.svg" class="iconsContact" alt="Twitter">
+        <img src="assets/Vector.svg" class="iconsContact" alt="Twitter">
+
         <a href="https://www.instagram.com/sivaautocare?igsh=MW9zejFpaXB1aWdtaw%3D%3D&utm_source=qr" target="_blank"
           rel="noopener">
-          <img src="../../assets/instagram.svg" class="iconsContact" alt="Instagram">
+          <img src="assets/instagram.svg" class="iconsContact" alt="Instagram">
         </a>
 
         <a href="https://www.facebook.com/profile.php?id=61573723112203#" target="_blank" rel="noopener">
-          <img src="../../assets/facebook.svg" class="iconsContact" alt="Facebook">
+          <img src="assets/facebook.svg" class="iconsContact" alt="Facebook">
         </a>
-
       </div>
+
     </div>
   </div>
 </div>
